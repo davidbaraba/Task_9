@@ -7,6 +7,9 @@
 .flex{
     display: flex;
 }
+*{
+    letter-spacing: 2px;
+}
 /* base classes */
 
 /* header */
@@ -126,7 +129,6 @@
 .right-contact h5{
     font-family: 'ArchyEDT-Thin';
     color: white;
-    letter-spacing: 2px;
 }
 .social-img{
     margin-right: 45px;
