@@ -105,10 +105,13 @@
     cursor: pointer;
     text-decoration: underline;
 }
+.responsiveHide{
+    display: none;
+}
 /* post section */
 
 /* responsive media */
-@media(max-width: 1125px){
+@media(max-width: 1480px){
     .article-box{
         justify-content: center;
     }
@@ -147,6 +150,9 @@
     }
     .third-article{
         display: none;
+    }
+    .responsiveHide{
+        display: flex;
     }
 }
 /* responsive media */
