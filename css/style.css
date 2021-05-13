@@ -108,6 +108,17 @@
 /* post section */
 
 /* responsive media */
+@media(max-width: 1125px){
+    .article-box{
+        justify-content: center;
+    }
+    .article{
+        margin-bottom: 32px;
+    }
+    .first-article{
+        margin-right: 20px;
+    }
+}
 @media(max-width: 1080px){
     .containerWithPadding{
         padding: 0 25px;
@@ -120,6 +131,9 @@
     }
     .article{
         width: 100%;
+    }
+    .first-article{
+        margin-right: 0;
     }
     .post-title{
         justify-content: center;
