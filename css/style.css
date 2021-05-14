@@ -139,6 +139,11 @@
 /* footer */
 
 /* responsive media */
+@media(max-width: 1640px){
+    .containerWithPadding{
+        padding: 0 25px;
+    }
+}
 @media(max-width: 1580px){
     .article-box{
         justify-content: center;
@@ -151,9 +156,7 @@
     }
 }
 @media(max-width: 1024px){
-    .containerWithPadding{
-        padding: 0 25px;
-    }
+    
     .nav{
         display:  none;
     }
